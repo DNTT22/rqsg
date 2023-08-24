@@ -1,0 +1,49 @@
+.App {
+  display: flex;
+  justify-content: center;
+  min-height: 50vw;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1f202c;
+}
+
+.quote {
+  background: #101dd9;
+  background-size: cover;
+  width: 500px;
+  height: 320px;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quote h1 {
+  color: white;
+  font-size: 1.5em;
+}
+
+.quote p {
+  color: white;
+  font-size: 1.2em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+  border: 2px solid #008CBA;
+  padding: 10px 15px;
+  color: #008CBA;
+  font-size: 20px;
+  border-radius: 10px;
+ cursor: pointer;
+ outline: none;
+ transition: background 0.5s, color 0.5s
+}
+
+.btn:hover {
+  background-color: #008CBA;
+  color: white;
+  box-shadow: 0px 0px 10px 0px #008CBA;
+}
