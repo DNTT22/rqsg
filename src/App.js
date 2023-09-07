@@ -31,6 +31,7 @@ let fetchNewQuote = () => {
 
   return (
     <div className="App">
+<h2>Random Quote Generator</h2>
       <div className="quote">
       <h1>{quote}</h1> 
       <p>{author}</p>
